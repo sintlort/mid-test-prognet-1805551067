@@ -17,7 +17,7 @@ class penduduk extends Model
      * @var array
      */
     protected $fillable = [
-        'nama','umur','alamat','pekerjaan',
+        'nama','umur','alamat','negara','pekerjaan',
     ];
 
     /**

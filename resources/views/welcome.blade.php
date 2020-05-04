@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <a href="{{route('show.penduduk')}}" class="btn-success">Manage Penduduk</a>
                 </div>
 
                 <div class="links">

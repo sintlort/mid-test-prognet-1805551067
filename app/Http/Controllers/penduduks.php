@@ -16,6 +16,7 @@ class penduduks extends Controller
             'nama'=>$request->nama,
             'umur'=>$request->umur,
             'alamat'=>$request->alamat,
+            'negara'=>$request->negara,
             'pekerjaan'=>$request->pekerjaan,]);
         return redirect(route('show.penduduk'));
     }
@@ -29,6 +30,7 @@ class penduduks extends Controller
             'nama'=>$request->nama,
             'umur'=>$request->umur,
             'alamat'=>$request->alamat,
+            'negara'=>$request->negara,
             'pekerjaan'=>$request->pekerjaan
         ]);
         return redirect(route('show.penduduk'));
