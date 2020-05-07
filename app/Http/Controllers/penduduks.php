@@ -11,6 +11,7 @@ class penduduks extends Controller
         $dataPenduduk = penduduk::all();
         return view('insert',compact('dataPenduduk'));
     }
+
     public function insertPenduduk(Request $request){
         penduduk::create([
             'nama'=>$request->nama,

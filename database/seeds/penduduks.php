@@ -18,9 +18,9 @@ class penduduks extends Seeder
                 'nama'=> $faker->name,
                 'umur'=> $faker->numberBetween(17,30),
                 'alamat'=> $faker->address,
+                'negara'=> $faker->country,
                 'pekerjaan'=> $faker->jobTitle
             ]);
         }
-
     }
 }
